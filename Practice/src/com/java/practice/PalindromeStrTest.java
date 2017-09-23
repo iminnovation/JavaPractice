@@ -1,5 +1,5 @@
 package com.java.practice;
-
+// To check Palindrome string using String functions
 class PalindromeStrTest {
 	
 	public static boolean isPalindrome(String str){  
