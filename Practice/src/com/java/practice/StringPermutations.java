@@ -13,7 +13,7 @@ class StringPermutation
 	}
 
 	public static void permutation(String st,String sub)
-	{
+	{	//Null String 
 		if(sub.equals(""))
 		{
 			System.out.println(st);
@@ -21,11 +21,13 @@ class StringPermutation
 		else
 		{
 			int a[] = new int[256];
+			//Iterate over the string length
 			for(int i=0;i<sub.length();i++)
 			{
 				if(a[(int)sub.charAt(i)]==0)
 				{
 					a[(int)sub.charAt(i)]=1;
+					//Recursive Call
 					permutation((st+sub.charAt(i)),sub.substring(0,i)+sub.substring(i+1,sub.length()));
 				}
 			}
