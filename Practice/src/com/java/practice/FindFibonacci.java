@@ -2,8 +2,6 @@ package com.java.practice;
 import java.util.Scanner;
 public class FindFibonacci {
 
-
-
 	public static void main(String args[]) { 
 		//Input for print Fibonacci series  
 		System.out.println("Enter a number upto which Fibonacci series you want to print: ");
@@ -15,7 +13,6 @@ public class FindFibonacci {
 		{ 
 			System.out.print(fibonacci2(i) +" "); 
 		}
-
 	}
 
 	public static int fibonacci2(int number)
@@ -29,9 +26,7 @@ public class FindFibonacci {
 			//Fibonacci number is the sum of previous two Fibonacci number 
 			fibonacci = fibo1 + fibo2; 
 			fibo1 = fibo2; fibo2 = fibonacci; 
-
 		} 
-
 		return fibonacci;  
 	}
 }
