@@ -30,10 +30,3 @@ public class FindFibonacci {
 		return fibonacci;  
 	}
 }
-
-
-
-
-
-
-
