@@ -1,5 +1,4 @@
 package com.java.practice;
-
 public class ConvertBinToDec {
 	 
     public static int ConvertBinaryToDecimal(int binary){
@@ -19,7 +18,7 @@ public class ConvertBinToDec {
         }
         return decimal;
     }
-     
+    
     public static void main(String args[]){
         System.out.println("1111's Decimal is : "+ConvertBinToDec.ConvertBinaryToDecimal(1111));
         System.out.println("110001's Decimal is  : "+ConvertBinToDec.ConvertBinaryToDecimal(110001));
