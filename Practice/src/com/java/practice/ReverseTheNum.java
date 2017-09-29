@@ -13,6 +13,6 @@ public class ReverseTheNum {
      
     public static void main(String a[]){
     	ReverseTheNum nr = new ReverseTheNum();
-        System.out.println("Reverse is: "+nr.reverseNumber(17868));
+        System.out.println("Reverse is: "+nr.reverseNumber(19697888));
     }
 }
