@@ -20,10 +20,11 @@ public class MapSortingByValue {
         map.put("Keyboard", 550);
         map.put("Webcam", 1200);
         map.put("UPS", 1800);
+        //Declare Set as String and Integer
         Set<Entry<String, Integer>> set = map.entrySet();
         List<Entry<String, Integer>> list = new ArrayList<Entry<String, Integer>>(set);
         Collections.sort( list, new Comparator<Map.Entry<String, Integer>>()
-        {
+        {	//Sort value using compareTo.
             public int compare( Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2 )
             {
                 return (o2.getValue()).compareTo( o1.getValue() );
