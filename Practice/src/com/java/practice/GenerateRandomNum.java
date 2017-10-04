@@ -2,7 +2,7 @@ package com.java.practice;
 
 import java.util.Random;
 import java.util.Scanner;
-// Genrate random number in specified range.
+// Generate random number in specified range.
 public class GenerateRandomNum {
 	 public static void main(String[] args) {
 	  
