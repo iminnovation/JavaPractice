@@ -17,6 +17,7 @@
 <li>SumOfDigits</li>
 <li>SwapNumber w/o third variable</li>
 <li>SwapNumUsingMulDiv</li>
+<li>LongestPalindromeInString</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you add some fix. Pls post an email.&nbsp;</p>
