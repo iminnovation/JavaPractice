@@ -21,4 +21,4 @@
 <li>Convert Odd word to Upper case Even word to Reverse</li>
 </ol>
 <p>&nbsp;</p>
-<p>If you add some fix. Please post an email.&nbsp;</p>
+<p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
