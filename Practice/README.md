@@ -19,6 +19,7 @@
 <li>SwapNumUsingMulDiv</li>
 <li>LongestPalindromeInString</li>
 <li>Convert Odd word to Upper case Even word to Reverse</li>
+<li>Test of the binary representation of an integer is a palindrome</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
