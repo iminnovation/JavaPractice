@@ -13,7 +13,6 @@ class BinarySearch
          // If the element is present at the middle
          if (arr[mid] == x)
             return mid;
-
          // If element is smaller than mid, then it will only in left sub array
        
          if (arr[mid] > x)
