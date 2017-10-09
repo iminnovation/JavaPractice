@@ -10,7 +10,6 @@ class BinarySearch
      if (r>=l)
      {
          int mid = l + (r - l)/2;
-
          // If the element is present at the middle
          if (arr[mid] == x)
             return mid;
@@ -23,7 +22,6 @@ class BinarySearch
       // If element is larger than mid, then it will only in right sub array
          return binarySearch(arr, mid+1, r, x);
      }
-
      // If element is not present in array
      return -1;
  }
