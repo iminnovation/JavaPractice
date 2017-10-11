@@ -11,10 +11,10 @@ public class JavaInterfaces implements Interface2{
 	 * of Interface1 because the interface Interface2 extends Interface1.
 	 */
 	public void Imethod1(){
-		System.out.println("This is the Implementation of Method 1");
+		System.out.println("This is the Implementation of Method 1.");
 	}
 	public void Imethod2(){
-		System.out.println("This is the Implementation of Method 2");
+		System.out.println("This is the Implementation of Method 2.");
 	}
 	public static void main(String args[]){
 		Interface2 obj = new JavaInterfaces();
