@@ -27,7 +27,7 @@ public class SortingOfStack {
         input.add(0);
         input.add(-1);
         input.add(67);
-        input.add(0);
+        input.add(192);
         input.add(0);
         System.out.println("Inserted Elements: "+input);
         System.out.println("Sorted Stack: "+stackSort(input));
