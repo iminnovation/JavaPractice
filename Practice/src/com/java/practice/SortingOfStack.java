@@ -8,6 +8,7 @@ public class SortingOfStack {
         // Create a temp stack 
         Stack<Integer> tmpStack = new Stack<Integer>();
         while(!input.isEmpty()) {
+        	//Pop out the element
             int tmp = input.pop();
             System.out.println("Popped Element is: "+tmp);
             while(!tmpStack.isEmpty() && tmpStack.peek() > tmp) {
@@ -21,7 +22,6 @@ public class SortingOfStack {
     }
      
     public static void main(String a[]){
-         
         Stack<Integer> input = new Stack<Integer>();
         input.add(389);
         input.add(0);
