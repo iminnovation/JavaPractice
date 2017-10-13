@@ -22,6 +22,7 @@
 <li>Test of the binary representation of an integer is a palindrome</li>
 <li>Sorting via Index</li>
 <li>Prime Number</li>
+<li>Convert Number in to words</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>

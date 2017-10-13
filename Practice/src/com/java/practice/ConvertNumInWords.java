@@ -71,7 +71,44 @@ public class ConvertNumInWords
 		return basicNums[number] + " Hundred" + current;
 	}
 
-	
+	public String convert(int number) {
+
+		if (number == 0) { return "Zero"; }
+
+		String prefix = "";
+		//For Negative Numbers
+		if (number < 0) {
+			number = -number;
+			prefix = "Minus";
+		}
+		//For blank
+		String current = "";
+		int place = 0;
+
+		do {
+			int n = number % 1000;
+			if (n != 0){
+				String s = convertNumLessThanOneThousand(n);
+				current = s + bigNums[place] + current;
+			}
+			place++;
+			number /= 1000;
+		} while (number > 0);
+
+		return (prefix + current).trim();
+	}
+
+	public static void main(String[] args) {
+		ConvertNumInWords conNum = new ConvertNumInWords();
+		System.out.println( "Conversion of the number is :" + conNum.convert(14));
+		System.out.println("Conversion of the number is :" + conNum.convert(-39));
+		System.out.println("Conversion of the number is :" + conNum.convert(-13));
+		System.out.println("Conversion of the number is :" + conNum.convert(13132));
+		System.out.println("Conversion of the number is :" + conNum.convert(5363));
+		System.out.println("Conversion of the number is :" + conNum.convert(0));
+		System.out.println("Conversion of the number is :" + conNum.convert(8));
+		System.out.println("Conversion of the number is :" + conNum.convert(53676683));
+	}
 	
 	
 	
