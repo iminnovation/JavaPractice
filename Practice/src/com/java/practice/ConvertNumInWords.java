@@ -53,4 +53,26 @@ public class ConvertNumInWords
 	};
 
 	
+	private String convertNumLessThanOneThousand(int number) {
+		String current;  
+		//If num mod less then 20.
+		if (number % 100 < 20){
+			current = basicNums[number % 100];
+			number /= 100;
+		}
+		else {
+			current = basicNums[number % 10];
+			number /= 10;
+
+			current = tenNums[number % 10] + current;
+			number /= 10;
+		}
+		if (number == 0) return current;
+		return basicNums[number] + " Hundred" + current;
+	}
+
+	
+	
+	
+	
 }
