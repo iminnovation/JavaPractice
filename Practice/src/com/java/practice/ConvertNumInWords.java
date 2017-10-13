@@ -3,8 +3,7 @@ package com.java.practice;
 
 public class ConvertNumInWords  
 {
-
-
+//Convert Number in to words
 	private static final String[] basicNums = {
 			"",
 			" One",
