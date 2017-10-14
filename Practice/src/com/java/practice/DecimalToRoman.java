@@ -20,7 +20,6 @@ public class DecimalToRoman
          
         //int array that containing 13 decimal numbers corresponds to Roman 
         int[] decimals = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-         
         @SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the decimal num between 1 and 3000");
