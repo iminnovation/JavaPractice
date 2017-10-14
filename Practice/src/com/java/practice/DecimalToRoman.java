@@ -6,6 +6,14 @@ public class DecimalToRoman
 {    
     public static void main(String[] args) 
     {
+    	//Romans are 
+    	//I	1
+    	//V	5
+    	//X	10
+    	//L	50
+    	//C	100
+    	//D	500
+    	//M	1000
         //String array that containing 13 Roman symbols
          String[] romanSymbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
          
@@ -14,11 +22,11 @@ public class DecimalToRoman
          
         @SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in); 
-        System.out.println("Enter the decimal num between 1 and 3999");
+        System.out.println("Enter the decimal num between 1 and 3000");
         int inputNumber = sc.nextInt();
         int copyOfInputNumber = inputNumber;
         String romanStr = "";         
-        if (inputNumber >= 1 && inputNumber <= 3999)
+        if (inputNumber >= 1 && inputNumber <= 3000)
         {
             for (int i = 0; i < romanSymbols.length; i++) 
             {
@@ -34,7 +42,7 @@ public class DecimalToRoman
         }
         else
         {
-            System.out.println("Number is not in between 1 to 3999");
+            System.out.println("Number is not in between 1 to 3000");
         }
     }
 }
