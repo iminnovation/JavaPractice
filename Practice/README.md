@@ -23,6 +23,7 @@
 <li>Sorting via Index</li>
 <li>Prime Number</li>
 <li>Convert Numbers in to words</li>
+<li>Decimal To Roman</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
