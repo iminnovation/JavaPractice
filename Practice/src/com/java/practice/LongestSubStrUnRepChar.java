@@ -35,7 +35,7 @@ public class LongestSubStrUnRepChar {
     }
 	
 	public static void main(String args[]){
-		String inputStr="abcdeffffffffghijklmccnuuosssazzzzzxxpq";
+		String inputStr="abcdefffffffjklmccnuuosssazzzzzxxpq";
 		LongestSubStrUnRepChar.longestSubstringUnrepeatedChar(inputStr);
 	}
 
