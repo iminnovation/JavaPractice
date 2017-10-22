@@ -25,6 +25,7 @@
 <li>Convert Numbers in to words</li>
 <li>Decimal To Roman</li>
 <li>Print the pattern using numbers</li>
+<li>maximum consecutive repeating character</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
