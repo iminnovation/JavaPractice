@@ -26,6 +26,7 @@
 <li>Decimal To Roman</li>
 <li>Print the pattern using numbers</li>
 <li>Maximum consecutive repeating character</li>
+<li>Vowel Count in given String</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
