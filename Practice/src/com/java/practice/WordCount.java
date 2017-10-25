@@ -21,7 +21,6 @@ public class WordCount {
         }
         return word_count;
     }
-      
     // Main 
     public static void main(String args[])
     {
