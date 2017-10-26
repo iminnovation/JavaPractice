@@ -16,8 +16,9 @@ public class SelectionSort
             arr[min] = arr[i];
             arr[i] = temp;
         }
+        System.out.print("Sorted Array : ");
         for (int j=0; j<n; ++j){
-            System.out.print("Sorted Array : "+arr[j]+" ");
+            System.out.print(arr[j]+" ");
         }
     }
     public static void main(String args[])
