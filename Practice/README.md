@@ -28,6 +28,7 @@
 <li>Maximum consecutive repeating character</li>
 <li>Vowel Count in given String</li>
 <li>Word Count in given String</li>
+<li>Selection Sort</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
