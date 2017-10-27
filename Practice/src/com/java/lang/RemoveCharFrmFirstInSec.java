@@ -32,6 +32,11 @@ public class RemoveCharFrmFirstInSec
 		str1 = new String(arr);
 		return str1.substring(0, outputStrCharIndex);  
 	}
-
+	public static void main(String[] args)
+	{
+		String str1 = "jamesbond";
+		String str2 = "and";
+		System.out.println(removeChars(str1, str2));
+	}
 
 }
