@@ -1,4 +1,4 @@
-package com.java.lang;
+package com.java.practice;
 
 //Java program to remove chars from first string which exist in second string
 
