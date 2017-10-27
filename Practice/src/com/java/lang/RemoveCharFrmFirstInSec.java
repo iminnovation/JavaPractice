@@ -35,8 +35,11 @@ public class RemoveCharFrmFirstInSec
 	public static void main(String[] args)
 	{
 		String str1 = "jamesbond";
-		String str2 = "and";
+		String str2 = "andz";
+		//TO DO
+		//Implement str2.len < str1.len
 		System.out.println(removeChars(str1, str2));
+		
 	}
 
 }
