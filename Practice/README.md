@@ -31,6 +31,7 @@
 <li>Selection Sort</li>
 <li>Contains all elements of a given range</li>
 <li>Remove chars from first string which exist in second string</li>
+<li>Sum of largest and second largest number in unsorted array</li>
 </ol>
 <p>&nbsp;</p>
 <p>If you want to add some fix or encounter any issue. Please post an email.&nbsp;</p>
